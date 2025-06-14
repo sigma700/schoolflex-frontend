@@ -1,4 +1,4 @@
-import { Welcome } from "../welcome/welcome";
+// import { Welcome } from "../welcome/welcome";
 import AOS from "aos";
 import { useEffect, useState } from "react";
 import { data, Form, Link } from "react-router";

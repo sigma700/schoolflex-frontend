@@ -2,6 +2,7 @@
   "name": "new-app",
   "private": true,
   "type": "module",
+  "proxy": "http://localhost:4000",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",

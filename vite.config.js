@@ -4,6 +4,10 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [reactRouter(), tailwindcss()],
+  base: "/",
+  build: {
+    outDir: "build",
+  },
   server: {
     port: 5371,
     proxy: {
